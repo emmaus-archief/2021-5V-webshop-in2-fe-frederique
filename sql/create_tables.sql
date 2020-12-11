@@ -1,10 +1,10 @@
 DROP TABLE IF EXISTS products; 
 CREATE TABLE products (
   ID SERIAL PRIMARY KEY,
-  code TEXT,
-  name TEXT,
+  code VARCHAR(15),
+  name VARCHAR(255),
   description TEXT,
-  price INTEGER,
+  price NUMERIC(10,2),
   kleur_id INTEGER,
   materiaal_id INTEGER,
   maat_id INTEGER
