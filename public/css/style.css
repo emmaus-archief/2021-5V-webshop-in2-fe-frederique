@@ -1,3 +1,8 @@
+body {
+     background-color: #deeafa;
+}
+
+
 .toast {
     /* dirty: below 'card' button  */
     position: fixed; 

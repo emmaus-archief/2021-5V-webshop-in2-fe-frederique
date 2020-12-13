@@ -13,7 +13,7 @@ INSERT INTO kleuren (id, kleur) VALUES (6, 'zwart');
 
 INSERT INTO materialen (id, materiaal) VALUES (1, 'plastic');
 INSERT INTO materialen (id, materiaal) VALUES (2, 'staal');
-INSERT INTO materialen (id, materiaal) VALUES (3, 'glas');
+INSERT INTO materialen (id, materiaal) VALUES (3, 'steen');
  
 INSERT INTO maten (id, maat) VALUES (1, 'kein');
 INSERT INTO maten (id, maat) VALUES (2, 'groot');
@@ -23,47 +23,47 @@ INSERT INTO attributen (id, attribuut) VALUES (1, 'dop');
 INSERT INTO attributen (id, attribuut) VALUES (2, 'handvat');
 INSERT INTO attributen (id, attribuut) VALUES (3, 'thermohoes'); */
 
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Rode plastic beker', 'Dit is een mooie rode beker van plastic, perfect om mee te nemen op korte tripjes.', '816905633-0',  10.5, 1, 1, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Vrolijke gele kinder beker', 'Deze beker is perfect voor uw kind, de beker is stevig en gaat moeilijk kapot.', '077030122-3',  10.5, 2, 1, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Blauwe beker in stijl', 'Blauw, de kleur van de lucht en van de zee, deze plastice beker is perfect voor een lente-dag.', '445924201-X',  10.5, 3, 1, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Paarse plastic beker', 'Met deze paarse plastic beker ben je altijd opvallend!', '693155505-7',  10.5, 4, 1, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Witte plastic', 'Speciaal voor die momenten dat de dorst hebt.', '492662523-7',  10.5, 5, 1, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Zwarte plastic beker', 'Met deze zwarte plastic beker bent u altijd voorbereid', '313191299-5',  10.5, 6, 1, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Rode plastic beker', 'Dit is een mooie rode beker van plastic, perfect om mee te nemen op korte tripjes.', '816905633-0',  10, 1, 1, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Vrolijke gele kinder beker', 'Deze beker is perfect voor uw kind, de beker is stevig en gaat moeilijk kapot.', '077030122-3',  10, 2, 1, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Blauwe beker in stijl', 'Blauw, de kleur van de lucht en van de zee, deze plastic beker is perfect voor een lentedag.', '445924201-X',  10.5, 3, 1, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Paarse plastic beker', 'Met deze paarse plastic beker ben je altijd opvallend!', '693155505-7',  10, 4, 1, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Witte plastic', 'Speciaal voor die momenten dat je de dorst hebt.', '492662523-7',  10, 5, 1, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Zwarte plastic beker', 'Met deze zwarte plastic beker bent u altijd voorbereid', '313191299-5',  10, 6, 1, 1);
 
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Rode stalen beker', 'Deze fantastische is stevig en rood!', '818305633-H',  10.5, 1, 2, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Geel van de zon', 'Door deze gele stalen beker wordt u gelijk blij.', '077009822-2',  10.5, 2, 2, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Out of the blue', 'Met deze blauwe stalen beker ben je de ster van het park.', '448340201-A',  10.5, 3, 2, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Paarse stalen beker', 'Perfect voor een avondje uit, doordat deze beker lekker opvalt.', '693154595-1',  10.5, 4, 2, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('white and chique', 'Met deze chique stalen beker ben je altijd voorbereid.', '492691123-7',  10.5, 5, 2, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Zwarte thermofles', 'Deze beker is het best te gebruiken als een thermofles.', '199191299-8',  10.5, 6, 2, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Rode stalen beker', 'Deze fantastische beker is stevig en rood!', '818305633-H',  12, 1, 2, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Geel van de zon', 'Door deze gele stalen beker word je meteen blij.', '077009822-2',  12, 2, 2, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Out of the blue', 'Met deze blauwe stalen beker ben je de ster van het park.', '448340201-A',  12, 3, 2, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Paarse stalen beker', 'Perfect voor een avondje uit, doordat deze beker lekker opvalt.', '693154595-1',  12, 4, 2, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('white and chique', 'Met deze chique stalen beker ben je altijd voorbereid.', '492691123-7',  12, 5, 2, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Zwarte thermofles', 'Deze beker is het best te gebruiken als een thermofles.', '199191299-8',  12, 6, 2, 1);
 
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 13', 'tekst', '810565633-6',  10.5, 1, 3, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 14', 'tekst', '077030159-4',  10.5, 2, 3, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 15', 'tekst', '458324201-R',  10.5, 3, 3, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 16', 'tekst', '615955505-9',  10.5, 4, 3, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 17', 'tekst', '491832523-1',  10.5, 5, 3, 1);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 18', 'tekst', '313191137-6',  10.5, 6, 3, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 13', 'tekst', '810565633-6',  13.5, 1, 3, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 14', 'tekst', '077030159-4',  13.5, 2, 3, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 15', 'tekst', '458324201-R',  13.5, 3, 3, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 16', 'tekst', '615955505-9',  13.5, 4, 3, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 17', 'tekst', '491832523-1',  13.5, 5, 3, 1);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 18', 'tekst', '313191137-6',  13.5, 6, 3, 1);
 
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 19', 'tekst', '816905158-1',  12.5, 1, 1, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 20', 'tekst', '071130122-4',  12.5, 2, 1, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 21', 'tekst', '445958301-G',  12.5, 3, 1, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 22', 'tekst', '693367505-8',  12.5, 4, 1, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 23', 'tekst', '492438523-9',  12.5, 5, 1, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 24', 'tekst', '313191589-4',  12.5, 6, 1, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 19', 'tekst', '816905158-1',  8, 1, 1, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 20', 'tekst', '071130122-4',  8, 2, 1, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 21', 'tekst', '445958301-G',  8, 3, 1, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 22', 'tekst', '693367505-8',  8, 4, 1, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 23', 'tekst', '492438523-9',  8, 5, 1, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 24', 'tekst', '313191589-4',  8, 6, 1, 2);
 
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 25', 'tekst', '811665633-4',  12.5, 1, 2, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 26', 'tekst', '077100122-8',  12.5, 2, 2, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 27', 'tekst', '445701201-X',  12.5, 3, 2, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 28', 'tekst', '693154885-7',  12.5, 4, 2, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 29', 'tekst', '448625243-6',  12.5, 5, 2, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 30', 'tekst', '312271299-7',  12.5, 6, 2, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 25', 'tekst', '811665633-4',  10, 1, 2, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 26', 'tekst', '077100122-8',  10, 2, 2, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 27', 'tekst', '445701201-X',  10, 3, 2, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 28', 'tekst', '693154885-7',  10, 4, 2, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 29', 'tekst', '448625243-6',  10, 5, 2, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 30', 'tekst', '312271299-7',  10, 6, 2, 2);
 
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 31', 'tekst', '811573633-0',  12.5, 1, 3, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 32', 'tekst', '076837122-T',  12.5, 2, 3, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 33', 'tekst', '445924201-P',  12.5, 3, 3, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 34', 'tekst', '693884505-8',  12.5, 4, 3, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 35', 'tekst', '629662523-7',  12.5, 5, 3, 2);
-INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 36', 'tekst', '313193659-5',  12.5, 6, 3, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 31', 'tekst', '811573633-0',  11.5, 1, 3, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 32', 'tekst', '076837122-T',  11.5, 2, 3, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 33', 'tekst', '445924201-P',  11.5, 3, 3, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 34', 'tekst', '693884505-8',  11.5, 4, 3, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 35', 'tekst', '629662523-7',  11.5, 5, 3, 2);
+INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 36', 'tekst', '313193659-5',  11.5, 6, 3, 2);
 
 
 /*
