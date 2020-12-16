@@ -65,6 +65,7 @@ INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, ma
 INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Witten glazen beker', 'Het kan echt, een witte glazen beker', '629662523-7',  11.5, 5, 3, 2);
 INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('Zwarte nacht beker', 'Deel de sfeer in de nacht met deze zwarte nacht beker.', '313193659-5',  11.5, 6, 3, 2);
 
+even wat tekst, omdat de push niet werkte
 
 /*
 
