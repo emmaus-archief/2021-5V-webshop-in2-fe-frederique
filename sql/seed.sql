@@ -15,8 +15,8 @@ INSERT INTO materialen (id, materiaal) VALUES (1, 'plastic');
 INSERT INTO materialen (id, materiaal) VALUES (2, 'staal');
 INSERT INTO materialen (id, materiaal) VALUES (3, 'steen');
  
-INSERT INTO maten (id, maat) VALUES (1, 'kein');
-INSERT INTO maten (id, maat) VALUES (2, 'groot');
+INSERT INTO maten (id, maat) VALUES (1, 'groot');
+INSERT INTO maten (id, maat) VALUES (2, 'klein');
 
 /* Misschien kunnen we de attributen apart verkopen?
 INSERT INTO attributen (id, attribuut) VALUES (1, 'dop');
@@ -64,6 +64,8 @@ INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, ma
 INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 34', 'tekst', '693884505-8',  11.5, 4, 3, 2);
 INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 35', 'tekst', '629662523-7',  11.5, 5, 3, 2);
 INSERT INTO products (name, description, code, price, kleur_id, materiaal_id, maat_id) VALUES ('beker 36', 'tekst', '313193659-5',  11.5, 6, 3, 2);
+
+INSERT INTO relaties (product_id1, product_id2) VALUES (1,2);
 
 
 /*
