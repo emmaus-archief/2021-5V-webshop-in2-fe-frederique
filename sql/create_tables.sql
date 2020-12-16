@@ -8,6 +8,7 @@ CREATE TABLE products (
   kleur_id INTEGER,
   materiaal_id INTEGER,
   maat_id INTEGER
+  relatie_id INTEGER
 );
 
 DROP TABLE IF EXISTS kleuren; 
@@ -27,6 +28,17 @@ CREATE TABLE maten (
   ID SERIAL PRIMARY KEY,
   maat TEXT
 );
+
+DROP TABLE IF EXISTS relaties;
+CREATE TABLE relaties (
+  ID SERIAL PRIMARY KEY,
+  product_id1 INTEGER,
+  product_id2 INTEGER
+);
+
+
+
+
 /*
 CREATE TABLE attributen (
   ID SERIAL PRIMARY KEY,
