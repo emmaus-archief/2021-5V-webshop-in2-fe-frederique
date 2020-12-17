@@ -1,7 +1,8 @@
 # extra toevoegingen
-- bij html: informatie producten (r. 40 - 60), extra productinfo (r 77, 78), r. 178
+- bij index.html: informatie producten (r. 40 - 60), extra productinfo (r 77, 78), r. 118
 - bij style.css: lettertypen, positie van de informatie, achtergrondkleur, tekstkleuren, hover
 - pdf van een reclameposter voor onze producten (verstuurd via de mail)
+- de bekers zijn zelf getekend
 
 
 # gitpodnode

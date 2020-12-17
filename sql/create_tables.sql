@@ -37,7 +37,8 @@ CREATE TABLE voorgesteld (
 );
 
 /*
-SELECT products.name, relaties.product_id1, relaties.product_id2 FROM relaties
-JOIN products ON relatiesl.product_id1 = products.ID
+SELECT products.name, voorgesteld.product_id1, voorgesteld.product_id2, P2.name FROM voorgesteld
+JOIN products ON voorgesteld.product_id1 = products.ID
+JOIN products AS P2 ON P2.ID = voorgesteld.product_id2;
 */
 
