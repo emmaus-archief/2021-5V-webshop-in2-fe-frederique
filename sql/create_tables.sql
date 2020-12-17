@@ -7,7 +7,7 @@ CREATE TABLE products (
   price NUMERIC(10,2),
   kleur_id INTEGER,
   materiaal_id INTEGER,
-  maat_id INTEGER
+  maat_id INTEGER,
   relatie_id INTEGER
 );
 
@@ -29,21 +29,15 @@ CREATE TABLE maten (
   maat TEXT
 );
 
-DROP TABLE IF EXISTS relaties;
-CREATE TABLE relaties (
+DROP TABLE IF EXISTS voorgesteld;
+CREATE TABLE voorgesteld (
   ID SERIAL PRIMARY KEY,
   product_id1 INTEGER,
   product_id2 INTEGER
 );
 
-
-
-
 /*
-CREATE TABLE attributen (
-  ID SERIAL PRIMARY KEY,
-  attribuut TEXT
-);
+SELECT products.name, relaties.product_id1, relaties.product_id2 FROM relaties
+JOIN products ON relatiesl.product_id1 = products.ID
 */
-
 

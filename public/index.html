@@ -37,16 +37,32 @@
 	</nav>
 	<main id="index">
 		<div class="container">
-			<h5>Onze bekers</h5>
-			<p>Hier zie je een lijst met artikelen die je bij mij kunt bestellen.</p>
-			<p>klik op een artikel voor meer informatie<p>
-					<p>klik op de "winkelwagentje" om het artikel in je winkelwagen te stoppen</p>
+			<h1 class="tekst">FéFré Bekers</h1>
+			<p class="informatie">Hieronder staan de producten die wij verkopen.</br>
+			   Klik op een artikel voor meer informatie.</br>
+         Klik op het "winkelwagentje" om het artikel in je winkelwagen te stoppen.</p>
+
+      <div class="extra-informatie">
+        <h2 class="tekst milieu"> Milieubewust</h2>
+        <p>Wij proberen zoveel mogelijk rekening te houden met het milieu. Zo verkopen wij bekers van bioplastic, roestvrij staal (RVS) en steen. De binnenkant van de bekers bestaan uit het composteerbare plastic PLA. Dit is gemaakt van hernieuwbare stoffen, zoals suikerriet en maïs. </p>
+      </div>
+
+      <div class="uitleg">
+        <h2 class="tekst artikelen"> Onze artikelen </h2>
+        <p> Wij verkopen grote en kleine bekers van verschillende materialen: 
+          <ul>
+            <li><b>Plastic</b></li>
+            <li><b>Staal</b></li>
+            <li><b>Steen</b></li>
+          </ul>  
+        </p>
+      </div>
 		</div>
 	</main>
 	<footer>
 		<hr>
-		<p>Deze website is gemaakt door <naam leerling> voor het vak informatica op het Emmauscollege Rotterdam. Laatste
-				bijgewerkt 1 oktober 2020.</p>
+		<p>Deze website is gemaakt door Fé en Frederique voor het vak informatica op het Emmauscollege Rotterdam. Laatste
+				bijgewerkt 17 december 2020.</p>
 	</footer>
 	<!-- template for product info-->
 	<template id="productcard">
@@ -58,9 +74,11 @@
 				<div class="card-body">
 					<p class="product_description card-text"></p>
 					<ul class="product-properties">
+            <li><b>Productinformatie</b></li>
+            <li><span class="propert-name, productnaam"></span><span class="product_name"></span></li>
 						<li><span class="propert-name">Prijs:</span><span class="product_price">€</span></li>
-						<li><span class="propert-name">Code:</span><span class="product_code"></span></li>
-					</ul>
+            <li><span class="propert-name">Code:</span><span class="product_code"></span></li>
+          </ul>
 					<input class="product_amount" type="number" value="1" min="1">
 					<input class="product_id" type="hidden" name="id" data-json="">
 					<button class="btn btn-outline-dark shop-button" onclick="event.stopPropagation();addAmountClosestToBasket(this);$('.toast').toast('show')">🛒</button>
@@ -97,10 +115,10 @@
                 clone.querySelector(".product_description").textContent =`${product.description.substr(0, 100)}...`
                 clone.querySelector(".product_price").textContent += product.price
                 clone.querySelector(".product_code").textContent = product.code
+                clone.querySelector(".product_name").textContent = product.name
                 clone.querySelector(".product_id").value = product.id
                 clone.querySelector(".product_id").dataset.json = JSON.stringify(product)
                 clone.querySelector(".product_image").src =`/images/${product.id}.jpg`
-
                 container.appendChild(clone)
 
                 })

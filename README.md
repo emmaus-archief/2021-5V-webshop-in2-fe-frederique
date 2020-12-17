@@ -1,6 +1,13 @@
+# extra toevoegingen
+- bij html: informatie producten (r. 40 - 60), extra productinfo (r 77, 78), r. 178
+- bij style.css: lettertypen, positie van de informatie, achtergrondkleur, tekstkleuren, hover
+- pdf van een reclameposter voor onze producten (verstuurd via de mail)
+
+
 # gitpodnode
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Notalifeform/gitpodnode)
+
 
 # meer technische info 
 ## over de code

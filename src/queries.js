@@ -52,7 +52,6 @@ const getCategories = (_request, response) => {
   })
 }
 
-
 const getProductsByIds = (ids, callback) => {
   pool.query(
     'SELECT * FROM products WHERE id = ANY($1::int[])',

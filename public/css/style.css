@@ -1,6 +1,53 @@
 body {
-     background-color: #deeafa;
+     background-color: #edf5ff;
+     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.nav-link:hover, .navbar-brand:hover {
+  background-color: #edf5ff;
+}
+
+.informatie {
+  padding-bottom: 20px;
+}
+
+.extra-informatie {
+  background-color: #fafafa;
+  font-size: 14px;
+  font-style: italic;
+  width: 550px;
+  height: 150px;  
+  position: absolute;
+    top: 60px;
+    right: 210px;
+  border: 5px black;
+  border-style: double;
+  border-radius: 40px;
+}
+
+.productnaam {
+  font-style: italic;
+}
+
+.tekst, .product_title {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+  font-weight: bold;
+}
+
+.tekst {
+  color: #ffb89c;
+}
+
+.milieu {
+  color: #fff5a6;
+}
+
+.artikelen {
+  color: #e6d5f0;
+}
+
 
 
 .toast {
@@ -12,6 +59,9 @@ body {
 }
 
 .card {
+  border-style: double;
+  border-width: 5px;
+  border-color: black;
   width:200px; 
   height: 700px; 
   margin-bottom: 20px
@@ -30,15 +80,17 @@ body {
 }
 
 .product > .card-header {
-    height:3em
+  height:3em
 }
 .card-text {
+  font-style: italic;
   min-height:10em
 }
+
 .product-properties {
   list-style: none; 
   padding-left: 5px; 
-  font-size: 15px"
+  font-size: 15px;
 }
 
 .product-properties > li > .property-name {
@@ -66,3 +118,7 @@ footer {
   margin: 20px;
   font-size: 12px;
 } 
+
+.container {
+  padding-top: 20px;
+}
